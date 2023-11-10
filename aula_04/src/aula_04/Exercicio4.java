@@ -11,7 +11,7 @@ public class Exercicio4 {
 		String continua = "S";
 		int idade, genero, pessoaDesenvolvedora; 
 		int backend = 0, mulheresCisETrans = 0, homensCisETrans = 0, naoBinarios = 0;
-		float mediaIdade, totalPesquisa = 0, somaIdade = 0;
+		float mediaIdade, totalPesquisa = 0.0f, somaIdade = 0.0f;
 		
 		while (continua.equalsIgnoreCase("S")) {
 			System.out.println("Idade: ");
